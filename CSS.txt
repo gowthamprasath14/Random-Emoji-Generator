@@ -1,0 +1,53 @@
+CSS
+
+
+body, html {
+  height: 100%;
+  background-image: url("https://img.freepik.com/free-vector/realistic-style-emoji-love-background_79603-1586.jpg"); 
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color:li;
+  padding:14rem 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: rgb(232, 204, 80);
+  padding: 3rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(26, 26, 160, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+}
+
+.container h2,
+.container p,
+.container button {
+  margin-bottom: 1rem;
+}
+
+.container p {
+  font-size: 10rem;
+}
+
+.container button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(65, 64, 63);
+  color: #fff;
+  cursor: pointer;
+}
